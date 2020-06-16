@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "jsx": "react",
+    "lib": ["es6"],
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "target": "esnext",
+    "declaration": true,
+    "declarationDir": "src/types",
+    "outDir": "src/lib",
+    "inlineSourceMap": true,
+    "experimentalDecorators": true
+  },
+  "include": [
+    "src/components"
+  ],
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js",
+    "example"
+  ]
+}

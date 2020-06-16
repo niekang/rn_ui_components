@@ -1,0 +1,23 @@
+{
+  "name": "rn_ui_components",
+  "version": "0.0.1-alpha114",
+  "private": false,
+  "scripts": {},
+  "dependencies": {
+    "deepmerge": "^4.2.2",
+    "react-native-vector-icons": "^6.6.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "jest": {
+    "preset": "react-native"
+  },
+  "files": [
+    "lib",
+    "components",
+    "image",
+    "types"
+  ],
+  "main": "lib",
+  "types": "types"
+}
